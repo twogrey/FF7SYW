@@ -1,0 +1,116 @@
+[00000000] INFO: FF7/FF8 OpenGL driver version 0.8.1b
+[00000000] INFO: Auto-detected version: FF7 1.02 French
+[00000000] INFO: Intel Intel(R) HD Graphics 4000 4.0.0 - Build 10.18.10.4276
+[00000000] INFO: OpenGL 2.0 support detected
+[00000000] INFO: Found swap_control extension
+[00000000] INFO: Max texture size: 16384x16384
+[00000000] INFO: Original resolution 640x480, window size 1600x900, output resolution 1200x900, internal resolution 1280x960
+[00000000] INFO: Shader limits: varying 64, vert uniform 4096, frag uniform 4096
+[00000000] INFO: FFMpeg movie player plugin loaded
+[00000000] INFO: FFMpeg version SVN-r25886, Copyright (c) 2000-2010 Fabrice Bellard, et al.
+[00000000] INFO: VGMStream music plugin loaded
+[00000000] LOCK UNLOCK TEST 
+[00000001] MATRIX INITIALIZE 
+[00000001] INITIALIZE DD/D3D END 
+[00000001] initializing sound...
+[00000001] creating dsound primary buffer
+[00000001] reading audio file
+[00000001] loading static sounds
+[00000001] sound initialized
+[00000001] set music volume: 127
+[00000001] set music volume: 127
+[00000001] Entering MAIN
+[00000001] Exiting MAIN
+[00000001] START OF CREDITS!!!
+[00000001] INFO: C:\Jeux\FF7SYW\data\Movies\eidoslogo.avi; vp8/vorbis 1280x960, 30.000000 FPS, duration: 11.133000, frames: 334
+[00000062] set music volume trans: 127->0, step=60
+[00000127] END OF CREDITS!!!
+[00000127] Entering MAIN
+[00000127] set music volume: 127
+[00000127] Exiting MAIN
+[00000127] START OF MENU SYSTEM!!!
+[00000225] END OF MENU SYSTEM!!!
+[00000225] Entering MAIN
+[00000229] Exiting MAIN
+[00000229] Field Start
+[00000231] Entering MAIN
+[00000233] Exiting MAIN
+[00000233] START OF MENU SYSTEM!!!
+[00004642] END OF MENU SYSTEM!!!
+[00004642] Entering MAIN
+[00004644] Exiting MAIN
+[00004644] Field Start
+[00005683] Field Quit
+[00005683] Entering MAIN
+[00005683] Exiting MAIN
+[00005683] Entering FRAME_INITIALIZE SWIRL
+[00005683] Exitting FRAME_INITIALIZE SWIRL
+[00005686] Swirl sound_effect1
+[00005686] stop_sound
+[00005686] End of Swirl sound_effect1
+[00005765] Entering FRAME_QUIT SWIRL
+[00005765] Exitting FRAME_QUIT SWIRL
+[00005765] Entering MAIN
+[00005767] Exiting MAIN
+[00005767] [BATTLE] Entering FRAME_INITIALIZE
+[00005767] [BATTLE] Scene# 960
+[00005767] [BATTLE] Exitting FRAME_INITIALIZE
+[00005829] [BATTLE] Begin main battle loop
+[00007054] [BATTLE] End of current battle
+[00007123] [BATTLE] next battle
+[00007162] [BATTLE] Begin main battle loop
+[00008107] [BATTLE] End of current battle
+[00008107] [BATTLE] Begin end battle stuff
+[00008126] stop_sound
+[00008127] [BATTLE] Entering FRAME_QUIT
+[00008127] [BATTLE] endof battle.
+[00008127] [BATTLE] Exitting FRAME_QUIT
+[00008127] Entering MAIN
+[00008129] Exiting MAIN
+[00008129] Field Start
+[00008253] Entering MAIN
+[00008255] Exiting MAIN
+[00008255] START OF MENU SYSTEM!!!
+[00011337] END OF MENU SYSTEM!!!
+[00011337] Entering MAIN
+[00011339] Exiting MAIN
+[00011339] Field Start
+[00011658] Field Quit
+[00011658] Entering MAIN
+[00011658] Exiting MAIN
+[00011658] Entering FRAME_INITIALIZE SWIRL
+[00011658] Exitting FRAME_INITIALIZE SWIRL
+[00011661] Swirl sound_effect1
+[00011661] stop_sound
+[00011661] End of Swirl sound_effect1
+[00011740] Entering FRAME_QUIT SWIRL
+[00011740] Exitting FRAME_QUIT SWIRL
+[00011740] Entering MAIN
+[00011742] Exiting MAIN
+[00011742] [BATTLE] Entering FRAME_INITIALIZE
+[00011742] [BATTLE] Scene# 960
+[00011742] [BATTLE] Exitting FRAME_INITIALIZE
+[00011804] [BATTLE] Begin main battle loop
+[00012767] [BATTLE] End of current battle
+[00012836] [BATTLE] next battle
+[00012876] [BATTLE] Begin main battle loop
+[00014340] [BATTLE] End of current battle
+[00014392] [BATTLE] next battle
+[00014432] [BATTLE] Begin main battle loop
+[00015709] pause_sound
+[00016166] resume_sound ()
+[00017490] [BATTLE] End of current battle
+[00017551] [BATTLE] next battle
+[00017591] [BATTLE] Begin main battle loop
+[00025295] [BATTLE] End of current battle
+[00025295] [BATTLE] Begin end battle stuff
+[00025314] stop_sound
+[00025315] [BATTLE] Entering FRAME_QUIT
+[00025315] [BATTLE] endof battle.
+[00025315] [BATTLE] Exitting FRAME_QUIT
+[00025315] Entering MAIN
+[00025317] Exiting MAIN
+[00025317] Field Start
+[00025990] Entering MAIN
+[00025992] Exiting MAIN
+[00025992] START OF MENU SYSTEM!!!
