@@ -1,0 +1,38 @@
+Pour changer les touches par défaut il faut:
+-Lancer le jeu et charger ou commencer une partie
+-Aller dans le menu (avec "+ pavé numérique" ou "majuscule droite")
+-Aller dans "Options"
+-Au niveau de "Contrôles" mettre sur "Personnaliser" et valider (avec "entrée" ou "entrée pavé numérique").
+-Là choisir ses touches
+-Quitter le menu des options et sauvegarder
+
+
+
+Pour rappel les touches par defaut sont:
+
+Configuration "standard"
+* Flèches du pavé numérique = touches directionnelles
+* Entrée du pavé numérique = [OK]
+* 0 du pavé numérique = [ANNULER]
+* + du pavé numérique = [MENU]
+* . du pavé numérique = [CHANGER]
+* 9 du pavé numérique = [PAGEHAUT]
+* 3 du pavé numérique = [PAGEBAS]
+* 7 du pavé numérique = [CAMERA]
+* 1 du pavé numérique = [CIBLE]
+* 5 du pavé numérique = [START]
+* - du pavé numérique = [SELECT] 
+
+
+Configuration "portable"
+* Flèches = touches directionnelles
+* Entrée = [OK]
+* Barre d'espacement = [ANNULER]
+* Shift = [MENU]
+* Ctrl = [CHANGER]
+* Page Haut = [PAGEHAUT]
+* Page Bas = [PAGEBAS]
+* Origine = [CAMERA]
+* Fin = [CIBLE]
+* Insertion = [START]
+* Suppr = [SELECT] 

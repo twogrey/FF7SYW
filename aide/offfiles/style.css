@@ -1,0 +1,446 @@
+body 
+{
+	background-color: #3B2357;
+	margin-top: 0;
+	font-family: Verdana, Arial, Helvetica;
+}
+
+table
+{
+	max-width: 1000px;
+	margin:auto;
+}
+
+table.index, tr.index, td.index
+{
+	padding: 0;
+	border-collapse: collapse;
+}
+
+a 
+{ 
+	text-decoration:none; 
+	font-weight:bold; 
+}
+
+a img 
+{ 
+	border:0; 
+	padding:0; 
+}
+
+hr
+{
+	width: 100%; 
+	text-decoration: none;
+	color: #FFFFFF;
+	border-top: 1px dashed #0C759C;
+	border-left:0;
+	border-right:0;
+	padding: 0;
+	margin: 3px auto 3px auto;
+ 	margin: -7px 0 -7px 0 !important!;
+}
+
+/* h2,q sont utilisés dans la faq principalement */
+
+h2 							{ margin:0; padding:0; font-size:14px; color:#666666; border-bottom:1px dashed #63B906; padding-bottom:5px; }
+.q 							{ color:#61B906; }
+
+/* form permet de ne pas avoir d'espacement dans un formulaire en fonction du navigateur */
+
+form 							{ display:inline; }
+code 						{ color:#006600; font-size:12px; }
+
+td.left 					{ background-image:url('./design/left.gif'); width:2px; padding:0; margin: 0 auto 0 auto; border-collapse: collapse; }
+td.right 				{ background-image:url('./design/right.gif'); width:2px; padding:0; margin: 0 auto 0 auto; border-collapse: collapse; }
+td.bottom 				{ background-image:url('./design/bottom.gif'); width:1px; height:2px; padding:0; margin: 0 auto 0 auto; border-collapse: collapse; }
+td.menu 					{ background-color:#2F3134; border-bottom:1px solid #D0D0D0; padding:0; margin: 0 auto 0 auto; border-collapse: collapse; }
+td.table_interligne_separation { background-color:#EEEEEE; border-bottom:1px solid #CCCCCC; height:7px; }
+
+/* td.info est la classe attachée au cadre contenant
+** les informations relatives a la connexion et le nombre de mp. */
+
+.info 			{ font-size:10px; font-weight:bold; color:#000000; padding:10px; }
+
+/* Les td.cadre1_? sont basiquement les cadres de couleurs blanc utilisés
+** dans les endroits où il y a des informations a affiché. On les trouve
+** entre autres dans le header, footer, page, erreur, ... */
+
+td.cadre1 				{ background-color:#FEFEFE; }
+td.cadre1_droite 		{ background-color:#FEFEFE; border-right:1px solid #CCCCCC; }
+td.cadre1_gauche		{ background-color:#FEFEFE; border-left:1px solid #CCCCCC; }
+td.cadre1_bas 			{ background-color:#FEFEFE; border-bottom:1px solid #CCCCCC; }
+
+/* Les td.titre forum corresponde au cadre où sont affichés les catégories et les 
+** titres des cadres en générale l'attribut end, signifie qu'on n'utilise pas de bordure 
+** à droite et qu'il n'y a donc plus de cellue a cette meme droite. */
+
+td.titreforum 			{ background-image:url('./design/fondnomforum.gif'); border-right:1px solid #CCCCCC; height:29px; padding:0; }
+td.titreforumend 		{ background-image:url('./design/fondnomforum.gif'); }
+
+/* Les td.cadre_? sont les cellules dans le forum où sont affichées le nombre de messages, réponses,
+** titre du forum, ... foncé signifie que ce sont les cadres foncés et clair que ce sont les clairs, 
+** Comme précedement, il existe aussi une classe pourvue d'un "end" qui n'a pas de bordure droite. */
+
+td.cadre_clair 			{ background-color:#FEFEFE; border-right:1px solid #CCCCCC; border-bottom:1px solid #CCCCCC; }
+td.cadre_forum 			{ background-color:#FEFEFE; border-right:1px solid #CCCCCC; border-bottom:1px solid #CCCCCC; }
+td.cadre_forum:hover	{ background-color:#DFDFDF; border-right:1px solid #CCCCCC; border-bottom:1px solid #CCCCCC; }
+td.cadre_fonce 			{ background-color:#EEEEEE; border-right:1px solid #CCCCCC; border-bottom:1px solid #CCCCCC; }
+td.cadre_fonce_end 		{ background-color:#EEEEEE; border-bottom:1px solid #CCCCCC; }
+td.cadre_clair_end 		{ background-color:#FEFEFE; border-bottom:1px solid #CCCCCC; }
+
+/* Les td.alternate sont les styles alternés utilisés lors de l'affichage d'un post, 
+** il est utile de mettre une couleur différentes pour mieu séparer les différents messages. */
+
+td.alternate1 			{ background-color:#FEFEFE; border-bottom:1px solid #CCCCCC; font-size:13px; color:#444444; font-weight: normal; }
+td.alternate2 			{ background-color:#FFFFFF; border-bottom:1px solid #CCCCCC; font-size:13px; color:#444444; font-weight: normal; }
+
+/* td.espace correspond à l'espace entre deux messages */
+
+td.espace 				{ background-color:#EEEEEE; border-bottom:1px solid #CCCCCC; height:7px; }
+
+/* td.posthaut correspond a la bare contenant le titre du forum lors de l'afficahge d'un post */
+
+td.posthaut 				{ font-size:10px; padding-bottom:7px; border-bottom:1px solid #CCCCCC; }
+
+/* td.smileys contient l'espacement entres les smilies dans le formulaire de post */ 
+
+td.smileys 				{ padding:5px; }
+
+/* a:link,a:visited,a:hover  donne les informations basiques pour les liens */ 
+a:link 					{ font-size: 11px; color: #666666; font-weight: bold; text-decoration: none; }
+a:visited 				{ font-size:11px; color:#666666; }
+a:hover 					{ font-size:11px; color:#FC3C03; }
+a.pseudo 				{ font-size:12px; font-family: Verdana; color:#000000; }
+a.pseudo:hover 			{ color:#0C759C; }
+
+a.lien {
+	text-decoration: none;
+	color: #105289;
+	border-bottom: 1px solid #368AD2;
+	padding-bottom: 0;
+	font-family: Trebuchet MS;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+/* .postlink:visited { color: #bdbdbd; } */
+
+a.lien:active {
+	color: #d2d2d2; 
+}
+
+a.lien:hover {
+	background-color: #D0E4F6;
+	text-decoration: none;
+}
+
+label:hover 
+{ 
+	cursor:pointer; 
+}
+/* Tout ce qui correspond à "allera" est utilisé lorsqu'il y a plus d'une page dans un post pour 
+** permettre d'aller direcement sur la dernière page lorsqu'on arrive dans le forum
+**
+**		Exemple : [ Aller à la page 1,2,3,4 ]
+**
+** Les classes qui suivent définisses les couleurs et tailles */
+
+.allera a:link 			{ font-size:10px; color:#666666; }
+.allera a:visited 		{ font-size:10px; color:#666666; }
+.allera a:hover 			{ font-size:10px; color:#FC3C03; }
+.allera 					{ font-size:10px; color:#666666; font-weight:normal; }
+
+/* messagevisite correspond à la mise en forme des sujets déjà visités dans un forum */
+
+.messagevisite a:visited { font-size:11px; color:#999999; }
+.messagevisite a:hover 	{ font-size:11px; color:#FC3C03; }
+
+/* La classe de base pour les champs de formulaires */
+
+input.bouton, textarea.bouton_rep_rapide, textarea.tbouton, textarea.tcond, textarea.tsign , select.sbouton, input.boutonb { border:1px solid #999999; background-color:#EEEEEE; font-weight:bold; color:#444444; font-family: Verdana, Arial, Helvetica, sans-serif; }
+
+/* input.bouton est la classe utilisée pour les champs de type INPUT */
+input.bouton 					{ font-size:11px; background-image:url('./design/fondnomforum.gif'); }
+
+/* input.bouton est la classe utilisée pour les champs de type INPUT dans le formulaire
+** d'enregistrement, la couleur change pour marquer l'erreur. */
+input.boutonb 				{ background-image:url('./design/fondnomforum.gif'); font-size:11px; color:#FF0000; font-weight:bold; }
+
+/* textarea.bouton_rep_rapide est la classe du champ de réponse rapide */
+textarea.bouton_rep_rapide 	{ font-size:11px; width:400px; height:100px; }
+
+/* textarea.tbouton est la classe du champ utilisé dans le formulaires de post et de mp */
+textarea.tbouton 				{ font-size:11px; width:400px; height:200px; }
+
+/* textarea.tbouton est la classe du champ affichant les conditions du forum a l'enregistrement */
+textarea.tcond 				{ font-size:10px; width:100%; height:280px; color:#666666;  text-transform:uppercase; }
+
+/* textarea.tbouton est la classe du champ utilisé dans le formulaires de signature */
+textarea.tsign 				{ font-size:11px; width:400px; height:60px; }
+
+/* select.sbouton est la classe des champs de type SELECT */
+select.sbouton 				{ font-size:11px; }
+
+/* Les classes utilisés pour la mise en forme du texte simple */
+
+.texte_base_gras 			{ font-size:11px; font-weight:bold; color:#666666; }
+.texte_base_fin 				{ font-size:11px;	font-weight: normal; color:#666666; }
+
+/* footer correspond au texte du fond contenant entre autre le copyright, merci de ne pas le mettre illisible */
+
+.footer 						{ font-size: 9px; color: #FFFFFF; font-weight: normal; }
+
+/* La couleur des admins, aussi utilisés pour colorés du texte */
+
+.admin 						{ color: #61B906; }
+
+/* La couleur des admins, aussi utilisés pour colorés du texte 2 */
+
+.admin2 						{ color: #E60000; }
+
+/* La couleur des modos, aussi utilisés pour colorés du texte */
+
+.modo 						{ color: #999999; }
+
+/* La couleur des modos, aussi utilisés pour colorés du texte */
+
+.modo1 						{ color: #5800B0; }
+
+/* La couleur des membres, aussi utilisés pour colorés du texte 2 */
+
+.membre 						{ color: #0000AE; }
+
+/* La couleur des bannis, aussi utilisés pour colorés du texte, et pour les erreurs en générale */
+
+.red 						{ color: #FF0000; }
+
+/* edit est la classe du texte qui affiche l'indication de modification d'un post par son créateur */
+
+.joueur1 						{ color: #0000AE; }
+.joueur2 						{ color: #61B906; }
+.joueur3 						{ color: #E60000; }
+.joueur4 						{ color: #000000; }
+
+.edit 						{ font-size:9px; color:#999999; font-weight:normal; }
+
+/* spoiler est la classe utilisée pour la fct BBcode [SPOIL] */
+
+.spoiler 					{ font-size:10px; padding:5px; border:1px solid #999999; width:75%; }
+.spoilertexte			 	{ font-weight:bold; font-size:10px; }
+
+/* couleur de fond personnalisable */
+#colorSelector {
+	position: relative;
+	width: 36px;
+	height: 36px;
+	background: url(colorpicker/select.png);
+}
+
+#colorSelector div {
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	width: 30px;
+	height: 30px;
+	background: url(colorpicker/select.png) center;
+}
+
+.colorpicker {
+	width: 213px;
+	height: 176px;
+	margin-left: 200px;
+	overflow: hidden;
+	position: absolute;
+	background: url(colorpicker/colorpicker_background.png);
+	font-family: Arial, Helvetica, sans-serif;
+	display: none;
+}
+.colorpicker_color {
+	width: 150px;
+	height: 150px;
+	left: 14px;
+	top: 13px;
+	position: absolute;
+	background: #f00;
+	overflow: hidden;
+	cursor: crosshair;
+}
+.colorpicker_color div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 150px;
+	height: 150px;
+	background: url(colorpicker/colorpicker_overlay.png);
+}
+.colorpicker_color div div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 11px;
+	height: 11px;
+	overflow: hidden;
+	background: url(colorpicker/colorpicker_select.gif);
+	margin: -5px 0 0 -5px;
+}
+.colorpicker_hue {
+	position: absolute;
+	top: 13px;
+	left: 171px;
+	width: 35px;
+	height: 150px;
+	cursor: n-resize;
+}
+.colorpicker_hue div {
+	position: absolute;
+	width: 35px;
+	height: 9px;
+	overflow: hidden;
+	background: url(colorpicker/colorpicker_indic.gif) left top;
+	margin: -4px 0 0 0;
+	left: 0px;
+}
+.colorpicker_new_color {
+	position: absolute;
+	width: 60px;
+	height: 30px;
+	left: 213px;
+	top: 13px;
+	background: #f00;
+}
+.colorpicker_current_color {
+	position: absolute;
+	width: 60px;
+	height: 30px;
+	left: 283px;
+	top: 13px;
+	background: #f00;
+}
+.colorpicker input {
+	background-color: transparent;
+	border: 1px solid transparent;
+	position: absolute;
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #898989;
+	top: 4px;
+	right: 11px;
+	text-align: right;
+	margin: 0;
+	padding: 0;
+	height: 11px;
+}
+.colorpicker_hex {
+	position: absolute;
+	width: 72px;
+	height: 22px;
+	background: url(colorpicker/colorpicker_hex.png) top;
+	left: 212px;
+	top: 142px;
+}
+.colorpicker_hex input {
+	right: 6px;
+}
+.colorpicker_field {
+	height: 22px;
+	width: 62px;
+	background-position: top;
+	position: absolute;
+}
+.colorpicker_field span {
+	position: absolute;
+	width: 12px;
+	height: 22px;
+	overflow: hidden;
+	top: 0;
+	right: 0;
+	cursor: n-resize;
+}
+.colorpicker_rgb_r {
+	background-image: url(colorpicker/colorpicker_rgb_r.png);
+	top: 52px;
+	left: 212px;
+}
+.colorpicker_rgb_g {
+	background-image: url(colorpicker/colorpicker_rgb_g.png);
+	top: 82px;
+	left: 212px;
+}
+.colorpicker_rgb_b {
+	background-image: url(colorpicker/colorpicker_rgb_b.png);
+	top: 112px;
+	left: 212px;
+}
+.colorpicker_hsb_h {
+	background-image: url(colorpicker/colorpicker_hsb_h.png);
+	top: 52px;
+	left: 282px;
+}
+.colorpicker_hsb_s {
+	background-image: url(colorpicker/colorpicker_hsb_s.png);
+	top: 82px;
+	left: 282px;
+}
+.colorpicker_hsb_b {
+	background-image: url(colorpicker/colorpicker_hsb_b.png);
+	top: 112px;
+	left: 282px;
+}
+.colorpicker_submit {
+	position: absolute;
+	width: 22px;
+	height: 22px;
+	background: url(colorpicker/colorpicker_submit.png) top;
+	left: 322px;
+	top: 142px;
+	overflow: hidden;
+}
+
+#lights {
+ position:absolute;
+ left:0px;
+ top:0px;
+ width:100%;
+ height:150px;
+ overflow:hidden;
+}
+
+.xlsf-light {
+ position:absolute;
+}
+
+body.fast .xlsf-light {
+ opacity:0.9;
+}
+
+.xlsf-fragment {
+ position:absolute;
+ background:transparent url(image/bulbs-50x50-fragments.png) no-repeat 0px 0px;
+ width:50px;
+ height:50px;
+}
+
+.xlsf-fragment-box {
+ position:absolute;
+ left:0px;
+ top:0px;
+ width:50px;
+ height:50px;
+ *width:100%;
+ *height:100%;
+ display:none;
+}
+
+.xlsf-cover {
+ position:fixed;
+ left:0px;
+ top:0px;
+ width:100%;
+ height:100%;
+ background:#fff;
+ opacity:1;
+ z-index:999;
+ display:none;
+}
